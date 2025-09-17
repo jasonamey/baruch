@@ -1,4 +1,4 @@
-# Baruch Library Projects
+# Baruch College, Newman Library Projects
 
 👋 Hi, I’m **Jason Amey**, Lecturer and Business Librarian at Baruch College (CUNY).  
 
