@@ -15,7 +15,7 @@ I’m a Lecturer and Business Librarian at Baruch College.
 My teaching and research interests include:  
 - Information & AI Literacy  
 - Business research strategies  
-- Python and data analysis in library instruction  
+- Programming and data analysis in library instruction  
 - The intersection of information technology and higher education  
 
 ---
