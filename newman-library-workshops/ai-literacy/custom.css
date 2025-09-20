@@ -7,3 +7,7 @@ img {
 .img-md { 
     width: 70%;
 }
+
+table th, table td {
+    background-color: white !important;
+  }
