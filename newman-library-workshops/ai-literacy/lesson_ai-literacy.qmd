@@ -1,20 +1,22 @@
-<link rel="stylesheet" type="text/css" href="custom.css">
+---
+title: "AI Literacy Workshop"
+format: html
+css: custom.css   
+---
 
 
-
-# AI Literacy Workshop
 
 ## Table of Contents
 - [AI Literacy Workshop](#ai-literacy-workshop)
-    - [Generative AI](#generative-ai)
-    - [Large Language Models (LLM)](#large-language-models)
-    - [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation)
-    - [AI Search](#ai-search)
-    - [Glossary](#glossary)
+- [Generative AI](#generative-ai)
+- [Large Language Models (LLM)](#large-language-models-llm)
+- [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation)
+- [AI Search](#ai-search)
+- [Glossary](#glossary)
 
    
 
----
+***
 ## Generative AI
 
 Generative AI refers to tools that can create new content - text, images, video, code, even music - based on written or spoken prompts. These systems are designed to recognize patterns in data and generate outputs that look and sound like human-created work. 
@@ -33,7 +35,7 @@ This gives students and researchers remarkable power: you can brainstorm ideas, 
 | [Mistral](https://mistral.ai/) | Mistral AI is a European startup developing powerful open-source and commercial LLMs, emphasizing efficiency and smaller models that run well on limited hardware. |
 
 
----
+***
 
 ## Large Language Models (LLM)
 
@@ -95,12 +97,12 @@ At Baruch College, Microsoft Copilot is the preferred AI chatbot.  Based upon Op
 
 Data privacy remains a significant concern for the use of many AI tools.  As such, Microsoft Copilot is the default generative AI tool at Baruch Colllege because all data submitted stays within the secure CUNY environment and is not shared or used to train external models. 
 
----
+***
 
 ## Retrieval Augmented Generation (RAG)
 
 
----
+***
 ## AI Search
 
 ### AI Assisted Research
@@ -135,6 +137,6 @@ A drawback of lexical matching is you can unknowingly miss potential resources u
 ![tabs-open-1](./images/ai-search/tabs-open-1.png)
 ![too-many-tabs](./images/ai-search/too-many-tabs.png)
 
----
+***
 
 ## Glossary
