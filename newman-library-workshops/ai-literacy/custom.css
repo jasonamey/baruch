@@ -1,5 +1,5 @@
 img {
-    width: 70%;
+    width: 90%;
     display: block;
     margin: auto;
 }
@@ -8,6 +8,39 @@ img {
     width: 70%;
 }
 
+.img-md-sm { 
+    width: 60%;
+}
+
+.img-sm { 
+    width: 50%;
+}
+
+.img-sm-sm { 
+    width: 40%;
+}
+
 table th, table td {
     background-color: white !important;
   }
+
+.top-link {
+    text-align: right;
+    margin-top: 1em;
+}
+  
+.top-link a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #0056b3;
+}
+  
+  .top-link a:hover {
+    text-decoration: underline;
+}
+
+table th:first-child, 
+table td:first-child {
+  white-space: nowrap;
+  width: 20%;
+}
