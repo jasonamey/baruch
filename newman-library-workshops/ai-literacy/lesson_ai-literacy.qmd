@@ -4,8 +4,6 @@ format: html
 css: custom.css   
 ---
 
-
-# AI Literacy Workshop
 <a id="top"></a>
 
 ## Table of Contents
