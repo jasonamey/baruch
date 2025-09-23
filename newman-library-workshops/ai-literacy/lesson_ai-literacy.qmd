@@ -31,7 +31,7 @@ Much of this discussion about AI centers on [generative AI](#generative-ai) and 
 
 At the same time, LLMs are transforming how we search for information. What new kinds of discovery become possible when search goes beyond [lexical search](#lexical-search)? How might research change when answers can be synthesized from thousands of sources at once? What opportunities arise when relationships among documents are surfaced in seconds? 
 
-This course will focus on AI’s influence on content creation (i.e., [generative AI](#generative-ai)) and research at Baruch College. 
+This teaching note will focus on AI’s influence on content creation (i.e., [generative AI](#generative-ai)) and research at Baruch College. 
 
 <p class="top-link"><a href="#top">^Back to Top</a></p>
 
@@ -46,12 +46,13 @@ Baruch College embraces the importance of integrating AI across teaching, resear
 The use of AI in coursework is determined by course instructor, as outlined in [Baruch College's Sample AI Use Policies for Course Syllabi](https://acrobat.adobe.com/id/urn:aaid:sc:US:84bea687-f6b2-4cc3-8261-65fd479254c4?viewer%21megaVerb=group-discover).
 
 These range of approaches towards AI include: 
- 1. Strictly Prohibited 
- 2. Limited Use for Editing 
- 3. Limited Use for Awareness 
- 4. AI Awareness with Critical Evaluation  
- 5. Guided Use with Attribution 
- 6. Integrated Use for Application, and (7) Co-created Policies with Students.  DELETE? 
+
+1. Strictly Prohibited 
+2. Limited Use for Editing 
+3. Limited Use for Awareness 
+4. AI Awareness with Critical Evaluation  
+5. Guided Use with Attribution 
+6. Integrated Use for Application, and (7) Co-created Policies with Students.  
 
 The use of AI in your coursework is contingent on the guidelines set by your course instructor; unauthorized use may be considered a violation of academic integrity.
 
