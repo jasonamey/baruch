@@ -5,7 +5,6 @@ css: custom.css
 ---
 
 
-
 # AI Literacy Workshop
 <a id="top"></a>
 
@@ -18,8 +17,6 @@ css: custom.css
     - [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation)
     - [AI Search](#ai-search)
     - [Glossary](#glossary)
-
-   
 
 ---
 
