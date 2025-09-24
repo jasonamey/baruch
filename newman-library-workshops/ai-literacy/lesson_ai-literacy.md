@@ -1,8 +1,12 @@
 <link rel="stylesheet" href="custom.css">
 
+<!-- 
+---
+title: "AI Literacy Workshop"
+format: html
+css: custom.css   
+--- -->
 
-
-# AI Literacy Workshop
 <a id="top"></a>
 
 ## Table of Contents
@@ -14,14 +18,14 @@
     - [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation)
     - [AI Search](#ai-search)
     - [Glossary](#glossary)
-
-   
+    - [Considerations and Questions about Using AI](#considerations-and-ethical-questions-about-using-AI)
 
 ---
+
 ## Overview 
 Artificial Intelligence is undoubtedly reshaping how we access, evaluate, and create information. From [chatbots](#chatbot) to research assistants, AI tools are becoming part of everyday academic life. Yet one of the challenges of AI is that the term itself is broad. 
 
-In its white paper [Identifying and Scaling AI Use Cases (2025)](https://cdn.openai.com/business-guides-and-resources/identifying-and-scaling-ai-use-cases.pdf), OpenAI — the company behind the foundational GPT models — proposes six “primitive” use cases: content creation, research, coding, data analysis, ideation/strategy, and automation. 
+In its white paper [Identifying and Scaling AI Use Cases (2025)](https://cdn.openai.com/business-guides-and-resources/identifying-and-scaling-ai-use-cases.pdf), OpenAI - the company behind the foundational GPT models - proposes six “primitive” use cases: content creation, research, coding, data analysis, ideation/strategy, and automation. 
 
 <img src="./images/overview/overview.png" alt="chat-gpt-image" class="img-sm"/>
 
@@ -31,11 +35,12 @@ Much of this discussion about AI centers on [generative AI](#generative-ai) and 
 
 At the same time, LLMs are transforming how we search for information. What new kinds of discovery become possible when search goes beyond [lexical search](#lexical-search)? How might research change when answers can be synthesized from thousands of sources at once? What opportunities arise when relationships among documents are surfaced in seconds? 
 
-This course will focus on AI’s influence on content creation (i.e., [generative AI](#generative-ai)) and research at Baruch College. 
+This teaching note will focus on AI’s influence on content creation (i.e., [generative AI](#generative-ai)) and research at Baruch College. 
 
 <p class="top-link"><a href="#top">^Back to Top</a></p>
 
 ---
+
 ## AI at Baruch College 
 
 ### Baruch College AI Guidelines and Resources
@@ -45,12 +50,13 @@ Baruch College embraces the importance of integrating AI across teaching, resear
 The use of AI in coursework is determined by course instructor, as outlined in [Baruch College's Sample AI Use Policies for Course Syllabi](https://acrobat.adobe.com/id/urn:aaid:sc:US:84bea687-f6b2-4cc3-8261-65fd479254c4?viewer%21megaVerb=group-discover).
 
 These range of approaches towards AI include: 
- 1. Strictly Prohibited 
- 2. Limited Use for Editing 
- 3. Limited Use for Awareness 
- 4. AI Awareness with Critical Evaluation  
- 5. Guided Use with Attribution 
- 6. Integrated Use for Application, and (7) Co-created Policies with Students.  DELETE? 
+
+1. Strictly Prohibited 
+2. Limited Use for Editing 
+3. Limited Use for Awareness 
+4. AI Awareness with Critical Evaluation  
+5. Guided Use with Attribution 
+6. Integrated Use for Application, and (7) Co-created Policies with Students.  
 
 The use of AI in your coursework is contingent on the guidelines set by your course instructor; unauthorized use may be considered a violation of academic integrity.
 
@@ -68,12 +74,13 @@ Commits to integrating AI into teaching, research, and operations in ways that a
 
 Establishes core principles for using generative AI at Baruch with Microsoft Copilot designated as the official, protected platform.
 
-[Academic Intergrity and AI](https://acrobat.adobe.com/id/urn:aaid:sc:US:3ba11b0a-2890-4774-8d8c-4edbe80b1f11)
+[Academic Integrity and AI](https://acrobat.adobe.com/id/urn:aaid:sc:US:3ba11b0a-2890-4774-8d8c-4edbe80b1f11)
 
 Affirms that unauthorized AI use is treated like any other integrity violation, with faculty setting clear syllabus rules and students responsible for compliance.
 
 
 ---
+
 ## Generative AI
 
 Generative AI refers to tools that can create new content - text, images, video, code, even music - based on written or spoken prompts. These systems are designed to recognize patterns in data and generate outputs that look and sound like human-created work. 
@@ -138,18 +145,43 @@ This process can be broken down into three steps: **input**, **model**, and **ou
 
 <img src="./images/llms/chatbot-in-out.png" alt="chatbot-in-out" class="img-md"/>
 
+---
 
-|Components   |Description   |
-|---|---|
-| ![chatbot-in](./images/llms/chatbot-in.png) | **Input**: The input is what you provide to the LLM, but it's more than simple text limited by traditional lexical matching. Modern LLMs use Natural Language Processing (NLP) to understand the meaning and intent behind your query, going beyond simple keyword matching. To get the best results, you need to use effective prompt engineering practices. This involves carefully crafting your query with clear instructions, context, and constraints to guide the model's output toward your desired goal. The quality of the input will influence the quality of the output. |
-| ![chatbot-LLM](./images/llms/chatbot-LLM.png) | **LLM**: The central component here is the LLM, which acts as the "brain" of the operation. This is where the core of the AI technology resides. The LLM's capabilities are a direct result of its training, a process where it learns patterns, relationships, and knowledge from a massive dataset. The volume of data required is immense, often consisting of trillions of words scraped from a wide variety of sources, including websites, books, and academic papers. This training phase is computationally intensive and is what allows the model to generate coherent and contextually relevant text. |
-| ![chatbot-out](./images/llms/chatbot-out.png) | **Output**: The output is the response generated by the LLM. The quality and reliability of this output are ultimately determined by the data the model was trained on. Understanding the model's training data is crucial for determining if you can trust the output. If the training data is biased, incomplete, or contains inaccuracies, the model may generate false or nonsensical information, a phenomenon known as a hallucination. Therefore, evaluating the output involves not only checking for factual accuracy but also considering the potential for bias and the model's limitations. |
+::: {.columns}
+::: {.column width="30%"}
+![](./images/llms/chatbot-in.png)
+:::
+::: {.column width="70%"}
+**Input**: The input is what you provide to the LLM, but it's more than simple text limited by traditional lexical matching. Modern LLMs use Natural Language Processing (NLP) to understand the meaning and intent behind your query, going beyond simple keyword matching. To get the best results, you need to use effective prompt engineering practices. This involves carefully crafting your query with clear instructions, context, and constraints to guide the model's output toward your desired goal. The quality of the input will influence the quality of the output.
+:::
+:::
+
+::: {.columns}
+::: {.column width="30%"}
+![](./images/llms/chatbot-LLM.png)
+:::
+::: {.column width="70%"}
+**LLM**: The central component here is the LLM, which acts as the "brain" of the operation. This is where the core of the AI technology resides. The LLM's capabilities are a direct result of its training, a process where it learns patterns, relationships, and knowledge from a massive dataset. The volume of data required is immense, often consisting of trillions of words scraped from a wide variety of sources, including websites, books, and academic papers. This training phase is computationally intensive and is what allows the model to generate coherent and contextually relevant text.
+:::
+:::
+
+::: {.columns}
+::: {.column width="30%"}
+![](./images/llms/chatbot-out.png)
+:::
+::: {.column width="70%"}
+**Output**: The output is the response generated by the LLM. The quality and reliability of this output are ultimately determined by the data the model was trained on. Understanding the model's training data is crucial for determining if you can trust the output. If the training data is biased, incomplete, or contains inaccuracies, the model may generate false or nonsensical information, a phenomenon known as a hallucination. Therefore, evaluating the output involves not only checking for factual accuracy but also considering the potential for bias and the model's limitations.
+:::
+:::
+
+---
+
 
 ### Understanding What LLMs Know... and What They Don’t
 
 To evaluate the output of a large language model, it's essential to understand what data the model was trained on. For this, a powerful principle applies: **"the data is the model."**
 
-Most foundational LLMs are trained on massive collections of publicly available web content - things like Wikipedia, Reddit, open-access articles, and code repositories. However, they largely exclude the significant body of knowledge contained in paywalled academic databases, dynamically generated web pages, and freely-accessible databases that aren’t easily crawlable.
+Most foundational LLMs are trained on massive collections of publicly available web content - things like Wikipedia, Reddit, open-access articles, and code repositories. However, they largely exclude the significant body of knowledge contained in pay-walled academic databases, dynamically generated web pages, and freely-accessible databases that aren’t easily crawl-able.
 
 <img src="./images/llms/data-is-the-model.png" alt="data-is-the-model" class="img"/>
 
@@ -182,9 +214,9 @@ They are all highly capable, general-purpose models that have been trained to un
 
 
 
-**At Baruch College, Microsoft Copilot is the preferred AI chatbot.**  Based upon OpenAI's GPT-4 models, Microsoft Copilot is an AI assistant built into Microsoft 365 applications like Word and Excel. Similar to popular AI-powered chatbots like ChatGPT and Google Gemini, Copilot maintains a Large Lange Model (LLM) powered chat feature that enables it to summarize information and answer questions, 
+**At Baruch College, Microsoft Copilot is the preferred AI chatbot.**  Based upon OpenAI's GPT-4 models, Microsoft Copilot is an AI assistant built into Microsoft 365 applications like Word and Excel. Similar to popular AI-powered chatbots like ChatGPT and Google Gemini, Copilot maintains a Large Language Model (LLM) powered chat feature that enables it to summarize information and answer questions, 
 
-Data privacy remains a significant concern for the use of many AI tools.  As such, Microsoft Copilot is the default generative AI tool at Baruch Colllege because all data submitted stays within the secure CUNY environment and is not shared or used to train external models. 
+Data privacy remains a significant concern for the use of many AI tools.  As such, Microsoft Copilot is the default generative AI tool at Baruch College because all data submitted stays within the secure CUNY environment and is not shared or used to train external models. 
 
 ### Professional Applications of LLMs
 
@@ -201,7 +233,7 @@ For example, an accounting or finance LLM only performs well if it has been expo
 
 ### How RAG Expands the Capabilities of the LLM
 
-While Large language models (LLMs) are undoubtably powerful as reasoning and content creation tools, they are inherently static, meaning their knowledge is limited to the data they were initially trained on. This creates a significant problem when you need specialized, proprietary, or time-sensitive information, as a base LLM has no way of accessing this new data.
+While Large language models (LLMs) are undoubtedly powerful as reasoning and content creation tools, they are inherently static, meaning their knowledge is limited to the data they were initially trained on. This creates a significant problem when you need specialized, proprietary, or time-sensitive information, as a base LLM has no way of accessing this new data.
 
 <img src="images/RAG/unhappy-llm.png" alt="unhappy-llm" class="img-sm"/>
 
@@ -227,9 +259,12 @@ Here is a notebook trained on 4 documents related to prompt engineering:
 
 
 <img src="images/RAG/notebook-llm-interface.jpg" alt="notebook-llm-interface" class="img-md"/>
+
 <br/>
+
 Your notebook can be enhanced by a variety of source and file types: .pdf files, URLs, YouTube Videos, pasted text (etc...): 
-<img src="images/RAG/notebook-lm-sources-upload.jpg" alt="notebook-lm-sources-upload" class="img-md" "/>
+
+<img src="images/RAG/notebook-lm-sources-upload.jpg" alt="notebook-lm-sources-upload" class="img-md" />
 
 
 From here, you can query your notebook with prompts like:
@@ -269,16 +304,18 @@ A drawback of lexical matching is you can unknowingly miss potential resources u
 A new AI-led innovation in resource discovery involves LLMs generating a collection of keywords that cast a wider net for relevant resources. When you craft your search strategy for your research, it can be helpful to use a LLM powered chatbot to help you with keyword creation:
 
 <img src="./images/ai-search/open-ai-keywords.jpg" alt="chat-gpt-keywords" class="img-md"/>
+
 <img src="./images/ai-search/LLM-keywords.png" alt="LLM-keywords" class="img-sm-sm"/>
 
-Instead of only searching for falsely accused in library research tools, you are now prepared to conduct a more robust search with wongful conviction, false confession and DNA exoneration.  This addition of semantically related keywords is important towards understanding how LLMs can help conduct a more exhaustive search of library resrouces. 
+Instead of only searching for falsely accused in library research tools, you are now prepared to conduct a more robust search with wrongful conviction, false confession and DNA exoneration.  This addition of semantically related keywords is important towards understanding how LLMs can help conduct a more exhaustive search of library resources. 
 
 
 ### Using AI to Build Search Strings
 
 Once you’ve gathered a set of keywords, the next step is combining them into a structured search. This is another area where AI chatbots can be especially useful: they can take your list of terms and **assemble them into complex Boolean search strings** tailored for the tool you’re using.  
 
-Boolean logic (using operators like AND, OR, and NOT) underlies most research platforms, but the specific syntax often differs:  
+Boolean logic (using operators like AND, OR, and NOT) underlies most research platforms, but the specific syntax often differs:
+
 - Library catalogs may only recognize **basic Boolean operators** (AND, OR, NOT).  
 - Scholarly databases (like ProQuest, JSTOR, or PubMed) typically support **advanced options** such as quotation marks for exact phrases, wildcards (e.g., * or ?), and proximity operators (e.g., NEAR/3).  
 - General search engines like Google use their own conventions, such as the `site:` operator for restricting results to specific websites or domains.  
@@ -306,9 +343,9 @@ Or even a limitless ability to search hundreds of articles in high-quality news 
 
 <br/>
 
-**How much time would it take to invidivually review each of these open tabs?** 
+**How much time would it take to individually review each of these open tabs?** 
 
-It potentially could prove useful if you an automated assistant that could search, parse and interpret the relevance of each of these articles and web pages - all of which would be semantically related to your original search query. Additionally, what if the assistant was able to summarize and synthesize all of the infromation relevant to your query, and generate an exhaustive report with citations all linking back to the original sources? 
+It potentially could prove useful if you an automated assistant that could search, parse and interpret the relevance of each of these articles and web pages - all of which would be semantically related to your original search query. Additionally, what if the assistant was able to summarize and synthesize all of the information relevant to your query, and generate an exhaustive report with citations all linking back to the original sources? 
 
 This is the motivation behind a new research feature of the LLM-powered chatbots called "Deep Research." Deep Research has become the accepted product term for this innovation in AI-assisted search and all the foundational LLMs - ChatGPT, Gemini, Claude - now offer this ability to comprehensively examine the web. 
 
@@ -320,10 +357,31 @@ Deep Research is a tool accessible through the primary search box interface of t
 
 Let's investigate the web for resources on short term rentals (e.g Air BnB) and their impact on local neighborhoods: 
 
-| Process | What You'll See |
+<!-- | Process | What You'll See |
 |---|---|
 | Once you structure a prompt for your Deep Research query, the tool will double check and ask specific, qualifying questions about what exactly you are searching for, and what resources the search should return. | <img src="./images/ai-search/deep-research-q-and-plan.png" alt="deep-research-q-and-plan" class="img-md"/> |
-| As Deep Research scans the web and interprets the resources it returns, the tool will present a collection of sites that are being considered. Think of this as the visualization of having dozens (hundreds!) tabs open on your browser, and evaluating and synthesizing the information on each page. | <img src="./images/ai-search/deep-research-websites.png" alt="deep-research-websites"/> |
+| As Deep Research scans the web and interprets the resources it returns, the tool will present a collection of sites that are being considered. Think of this as the visualization of having dozens (hundreds!) tabs open on your browser, and evaluating and synthesizing the information on each page. | <img src="./images/ai-search/deep-research-websites.png" alt="deep-research-websites"/> | -->
+
+::: {.columns}
+::: {.column width="40%"}
+Once you structure a prompt for your Deep Research query, the tool will double check and ask specific, qualifying questions about what exactly you are searching for, and what resources the search should return.
+:::
+::: {.column width="60%"}
+![](./images/ai-search/deep-research-q-and-plan.png){.img-md}
+:::
+:::
+
+::: {.columns}
+::: {.column width="40%"}
+As Deep Research scans the web and interprets the resources it returns, the tool will present a collection of sites that are being considered. Think of this as the visualization of having dozens (hundreds!) tabs open on your browser, and evaluating and synthesizing the information on each page.
+:::
+::: {.column width="60%"}
+![](./images/ai-search/deep-research-websites.png)
+:::
+:::
+
+
+<br/>
 
 Deep Research searches take consdierable time as: exhaustively examining the web, identifying sources by a wide semantic criteria, evaluating those resources and then synthesizing them into a report is a computationally demanding process. While researchers may be used to a search engine query taking a fraction of a second, Deep Research searches can take several minutes to complete. 
 
@@ -345,9 +403,9 @@ While the ability to exhaustively search the web and organize your findings into
 
 <img src="./images/ai-search/ai-assistants-logos.jpg" alt="ai-assistants-logos" class="img-md"/>
 
-<br/>
 
-An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating time-consuming activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote revelvant documents and information.
+
+An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating time-consuming activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote relevant documents and information.
 
 **Most of these services are proprietary. While they often have a free tier to attract users, their full functionality is typically locked behind a paid subscription or license.**
  
@@ -369,7 +427,6 @@ Notable AI Research Assistants include:
 
 <img src="./images/ai-search/ai-search-assistants.jpg" alt="ai-search-assistants" class="img-sm"/>
 
-<br/>
 
 An AI search engine is a new kind of web search tool that goes beyond returning a list of links. Instead of simply matching keywords like traditional search engines, AI search uses Large Language Models (LLMs) to interpret the meaning behind your query. This allows it to perform sophisticated semantic searches - understanding context, nuance, and intent - and return direct answers that summarize and synthesize information from multiple sources. 
 
@@ -396,94 +453,143 @@ At present, there are handful of databases provided by the Newman Library that o
 **Factset**
 
 **Statista**
+
 <p class="top-link"><a href="#top">^Back to Top</a></p>
 
-<!-- <img src="./images/ai-search/ny-times-site.jpg" alt="ny-times-site" class="img-md"/> -->
+---
+
+## Considerations and Questions about Using AI
+
+### Ecological Concerns
+
+The rapid development and use of artificial intelligence (AI) has raised significant ecological concerns due to its sizeable energy demands, particularly from training and running large language models (LLMs). These processes require immense computational power, leading to a substantial increase in electricity demand for data centers, which are often powered by fossil fuels. 
+
+In addition, the proliferation of the data centers that power AI create a new set of environmental pressures. These facilities require vast amounts of land and, crucially, water for cooling the heat-generating servers. This can strain local water supplies, especially in drought-prone regions. The combined need for energy and water creates a complex and growing environmental footprint that researchers and policymakers are still working to fully understand and address.
+
+AI providers are attempting to lessen the environmental impact of their tools and are trying to reassure researchers that [they're making progress in improving efficiency](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference).
+
+### Copyright Concerns and AI 
+
+Copyright concerns are central to current debates about AI. Training an AI system often involves copying vast amounts of text, images, or other creative works, and there is no clear consensus on whether this counts as “learning” in a way similar to humans reading books, or whether it constitutes large-scale reproduction that requires permission. Some creators and publishers argue they should be compensated when their work is used for training, while others see broad access to information as a foundation for innovation.
+
+For researchers and students, the key challenge is ethical as well as legal: if a model is trained on unlicensed material, should its outputs still be used in scholarly work? Courts and policymakers have yet to settle these issues, which means users should remain cautious, follow institutional guidelines, and be transparent about when and how AI tools are employed in their research or writing.
 
 
-<!-- <img src="./images/ai-search/site-syntax-build-search-string.jpg" alt="site-syntax-build-search-string" class="img-md"/> -->
+### "Learning Risk" with using AI
 
+While AI tools offer powerful new ways to find and analyze information, they also present a significant "learning risk." By automating complex tasks, [AI can reduce cognitive load](https://arxiv.org/abs/2506.08872) and prevent students from engaging in the deep, critical thinking necessary for learning. This convenience can also make it easier for students to engage in academic dishonesty and cheating, bypassing the fundamental work of research and synthesis. In doing so, AI tools can undermine efforts to teach core academic skills and support genuine engagement with course material.
+
+For these reasons, the judicious use of AI is critical. Students who copy and paste AI-generated content may be getting a quick answer, but they are not enjoying a fulfilling educational experience. Constructive AI use requires a critical understanding of these limitations and grounded in an awareness how to be intellectually responsible with AI. 
+
+### Google Gemini AI Search Results 
+
+Google’s integration of its Gemini AI system into search results (SERPs) represents a major shift in the economics of the web. Traditionally, Google has acted as a broker between users and publishers: it indexed websites, surfaced snippets, and drove traffic outward, sustaining an ecosystem where publishers earned revenue through ads, subscriptions, and visibility. Summaries generated directly in SERPs threaten this balance by reducing the need for users to click through to original sources, concentrating attention within Google’s platform and disrupting the flow of traffic that publishers depend on.
+
+For librarians, this is a development of unique concern. A healthy Internet has historically relied on the diversity of publishers, archives, and institutions that make information accessible. If AI-driven search displaces that ecosystem, we risk a less robust, less sustainable information environment.
+
+
+<p class="top-link"><a href="#top">^Back to Top</a></p>
 
 ---
 
 ## Glossary
 
 <a id="agent"></a>
+
 ### [Agent](https://en.wikipedia.org/wiki/Agentic_AI)
 A mechanism that bundles various software and AI services together to autonomously achieve a high-level goal. At its core, a [Large Language Model (LLM)](#llm) acts as the agent's central intelligence, responsible for planning and interpreting user intent. However, an agent's true capability comes from its ability to orchestrate and use external tools, which are often separate AI or software services. Many AI observers consider "agentic AI" the immediate future of the technology. 
 
 <a id="artificial-intelligence"></a>
+
 ### [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
 The broad field of computer science focused on creating machines that can perform tasks that typically require human intelligence, such as learning, problem-solving, perception, and [language understanding](#nlp).
 
 <a id="agi"></a>
+
 ### [Artificial General Intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
 A hypothetical form of AI that possesses the ability to understand, learn, and apply intelligence to solve any intellectual task that a human being can. Unlike the AI tools popular today — which are designed for a single, specific task (like a [chatbot](#chatbot) or an image generator) — AGI would have the same kind of broad, flexible cognitive abilities as a human. AGI remains a theoretical concept, with wide-ranging technical and ethical challenges.
 
 <a id="chatbot"></a>
+
 ### [Chatbot](https://en.wikipedia.org/wiki/Chatbot)
 A computer program that uses AI to conduct a conversation with a human, either through text or voice. Designed to simulate human conversation, chatbots can be used for a wide range of purposes, such as customer service, entertainment, and information retrieval.
 
 <a id="context-engineering"></a>
+
 ### [Context Engineering](https://en.wikipedia.org/wiki/Prompt_engineering)
 A technique used in AI to provide a [language model](#llm) with additional information, or "context," to improve its performance and steer its output toward a desired outcome.
 
 <a id="context-window"></a>
+
 ### [Context Window](https://en.wikipedia.org/wiki/Large_language_model#Context_window)
 The maximum amount of text (typically measured in [tokens](#token)) that an AI model can consider at one time when generating a response. This is essentially the model's short-term memory and a key limitation of many [language models](#llm).
 
 <a id="deep-research"></a>
+
 ### ["Deep Research"](https://en.wikipedia.org/wiki/ChatGPT_Deep_Research)
 Product name for a recently introduced feature among popular models that acts as an [agent](#agent) to autonomously browse the web and gather information. It generates comprehensive, cited reports on a specified topic by actively pulling in new information from the broader internet, rather than being limited to a [language model's](#llm) pre-existing data.
 
 <a id="generative-ai"></a>
+
 ### [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 A subfield of [artificial intelligence](#artificial-intelligence) focused on creating new, original content rather than just analyzing or classifying existing data. It uses [models](#machine-learning) that have been [trained](#training) on vast amounts of data to learn underlying patterns, structures, and styles. Once trained, these models can take a user [prompt](#prompt-engineering) and generate novel outputs (text, image, sound, or video).
 
 <a id="gpu"></a>
+
 ### [Graphical Processing Unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit)
 A specialized electronic circuit designed to rapidly perform mathematical calculations. Originally created to accelerate 3D rendering, [GPUs](#gpu) now power tasks that require massive parallel processing, such as [machine learning](#machine-learning) and [artificial intelligence](#artificial-intelligence).
 
 <a id="hallucination"></a>
+
 ### [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
 A response from an AI model that contains false, misleading, or nonsensical information, presenting it as fact. This can happen due to insufficient or biased [training data](#training-data), misunderstanding of context, or the model's probabilistic nature.
 
 <a id="inference"></a>
+
 ### [Inference](https://en.wikipedia.org/wiki/Inference_(statistics))
 The process of using a [trained](#training) AI model to make predictions or generate outputs based on new, unseen data. While [training](#training) is resource-intensive and happens once (or periodically), inference happens in real time when you interact with an [AI system](#artificial-intelligence).
 
 <a id="lexical-search"></a>
+
 ### [Lexical Search](https://en.wikipedia.org/wiki/Lexical_analysis)
 A method of searching for information that relies on the literal matching of keywords. Simple and fast, but limited, as it cannot consider meaning or context. Traditional research tools and databases rely heavily on lexical search.
 
 <a id="llm"></a>
+
 ### [Large Language Models (LLM)](https://en.wikipedia.org/wiki/Large_language_model)
 AI models [trained](#training) on massive amounts of text/data to understand and generate human-like language. They power many [generative AI](#generative-ai) tools such as [chatbots](#chatbot), and are widely used for summarization, translation, and code generation.
 
 <a id="machine-learning"></a>
+
 ### [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
 A subfield of AI focused on creating algorithms that allow computers to "learn" from data without explicit programming. ML models are [trained](#training) on large [datasets](#training-data). The recent "AI boom" is driven by [LLMs](#llm) and [generative AI](#generative-ai), though ML has been foundational for decades.
 
 <a id="nlp"></a>
+
 ### [Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing)
 A field of AI focused on enabling computers to understand, interpret, and generate human language.
 
 <a id="prompt-engineering"></a>
+
 ### [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering)
 The process of designing and refining the input, or "prompt," given to a [large language model (LLM)](#llm) to guide its output toward a specific result.
 
 <a id="rag"></a>
+
 ### [Retrieval Augmented Generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
 An AI technique that improves [language models](#llm) by giving them access to external knowledge bases. This reduces [hallucinations](#hallucination) and allows responses to be grounded in up-to-date, specific information.
 
 <a id="token"></a>
+
 ### [Token](https://en.wikipedia.org/wiki/Tokenization_(machine_learning))
 The fundamental unit of text used by an AI language model. Tokens can be words, parts of words, or punctuation. Models analyze and generate text one token at a time, and token count limits are key for [context windows](#context-window).
 
 <a id="training"></a>
+
 ### [Training](https://en.wikipedia.org/wiki/Training_(machine_learning))
 The foundational stage of building a [machine learning model](#machine-learning). Large amounts of [training data](#training-data) are fed into an algorithm, adjusting its parameters for accuracy. Training requires powerful [GPUs](#gpu) and transforms raw algorithms into usable models.
 
 <a id="training-data"></a>
+
 ### [Training Data](https://en.wikipedia.org/wiki/Training_data)
 The vast datasets used to "teach" AI models. For [LLMs](#llm), this includes trillions of [tokens](#token) scraped from the internet, digitized books, academic papers, and code. Companies often license or purchase data to build their models.
