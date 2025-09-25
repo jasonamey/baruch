@@ -7,15 +7,11 @@ format: revealjs
 ## Metadata
 ![](images/metadata.jpg)
 
-## Lack of metadata in datasets
+## Lack of Metadata in Datasets
 ![](images/dataset-difficult-to-locate.jpg)
 
-## Datasets can exist in the "Deep Web"
-![](images/deep-web.jpg)
 
-## Google Dataset Search
-[https://datasetsearch.research.google.com/](https://datasetsearch.research.google.com/)
-![](images/google-dataset-search.jpg)
+
 
 
 ## Advanced Google Searching
@@ -24,7 +20,7 @@ format: revealjs
 
 ## Open Data Resources
 [https://guides.newman.baruch.cuny.edu/opendata](https://guides.newman.baruch.cuny.edu/opendata)
-![](images/open-data-charlie.jpg)
+![](images/open-data.jpg)
 
 
 
