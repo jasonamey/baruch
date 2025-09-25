@@ -1,0 +1,118 @@
+---
+title: "STA 9750 Newman Library Data Resources"
+author: "Jason Amey"
+format: revealjs
+---
+
+## Open Data Resources
+[https://guides.newman.baruch.cuny.edu/opendata](https://guides.newman.baruch.cuny.edu/opendata)
+![](images/open-data.jpg)
+
+
+## Advanced Google Searching
+![](images/advanced-google.jpg)
+
+## New York City Data
+[https://guides.newman.baruch.cuny.edu/nyc_data](https://guides.newman.baruch.cuny.edu/nyc_data)
+![](images/nyc-data.jpg)
+
+## Census Data
+[https://guides.newman.baruch.cuny.edu/us_census](https://guides.newman.baruch.cuny.edu/us_census)
+![](images/census-data.jpg)
+
+
+## Accessing Newman Library Resources
+[https://guides.newman.baruch.cuny.edu/databases](https://guides.newman.baruch.cuny.edu/databases)
+![](images/newman-library-databases.jpg)
+
+## Statista
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/statista-1.jpg)
+
+
+## Statista
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/statista-2.jpg)
+
+
+## Statista
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/statista-3.jpg)
+
+## Mergent Online
+[https://guides.newman.baruch.cuny.edu/databases/M-N](https://guides.newman.baruch.cuny.edu/databases/M-N)
+![](images/mergent-online.jpg)
+
+## S&P NetAdvantage
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/net-advantage.jpg)
+
+
+## MRI | SIMMONS
+[https://guides.newman.baruch.cuny.edu/databases/M-N](https://guides.newman.baruch.cuny.edu/databases/M-N)
+![](images/mri-simmons.jpg)
+
+## Socal Explorer
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/social-explorer.jpg)
+
+## Access to Financial Platforms
+[https://guides.newman.baruch.cuny.edu/AccessFinData](https://guides.newman.baruch.cuny.edu/AccessFinData)
+![](images/access-to-finance-platforms.jpg)
+
+## S&P Capital IQ
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/cap-iq.jpg)
+
+## S&P Capital IQ
+[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
+![](images/cap-iq.jpg)
+
+
+## WRDS
+[https://guides.newman.baruch.cuny.edu/databases/W-Z](https://guides.newman.baruch.cuny.edu/databases/W-Z)
+![](images/wrds-1.jpg)
+
+## WRDS - Compustat and CRSP 
+[https://guides.newman.baruch.cuny.edu/databases/W-Z](https://guides.newman.baruch.cuny.edu/databases/W-Z)
+![](images/wrds-2.jpg)
+
+
+## WRDS - Programming
+[https://guides.newman.baruch.cuny.edu/databases/W-Z](https://guides.newman.baruch.cuny.edu/databases/W-Z)
+![](images/wrds-3.jpg)
+
+
+
+## Bloomberg Terminals
+[Subotnick Center](https://zicklin.baruch.cuny.edu/faculty-research/centers-institutes/subotnick-financial-services-center/)
+![](images/bloomberg.jpg)
+
+
+## Schedule a Consultation
+[https://library.baruch.cuny.edu/help/schedule-a-research-consultation/](https://library.baruch.cuny.edu/help/schedule-a-research-consultation)
+![](images/schedule-consultation.jpg)
+
+
+
+## Tutorial Help with a Database
+![](images/youtube.jpg)
+
+
+## Newman Library Search
+[https://library.baruch.cuny.edu/](https://library.baruch.cuny.edu/)
+![](images/newman-library-search.jpg)
+
+## Google Scholar
+[https://scholar.google.com/](https://scholar.google.com/)
+![](images/google-scholar.jpg)
+
+
+## Web Scraping
+[https://guides.newman.baruch.cuny.edu/c.php?g=1100946&p=8028636](https://guides.newman.baruch.cuny.edu/c.php?g=1100946&p=8028636)
+![](images/web-scraping.jpg)
+
+
+
+
+

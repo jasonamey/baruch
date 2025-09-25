@@ -54,7 +54,8 @@ These range of approaches towards AI include:
 3. Limited Use for Awareness 
 4. AI Awareness with Critical Evaluation  
 5. Guided Use with Attribution 
-6. Integrated Use for Application, and (7) Co-created Policies with Students.  
+6. Integrated Use for Application, 
+7. Co-created Policies with Students.  
 
 The use of AI in your coursework is contingent on the guidelines set by your course instructor; unauthorized use may be considered a violation of academic integrity.
 
@@ -403,7 +404,7 @@ While the ability to exhaustively search the web and organize your findings into
 
 
 
-An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating time-consuming activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote relevant documents and information.
+An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote relevant documents and information.
 
 **Most of these services are proprietary. While they often have a free tier to attract users, their full functionality is typically locked behind a paid subscription or license.**
  
@@ -460,11 +461,11 @@ At present, there are handful of databases provided by the Newman Library that o
 
 ### Ecological Concerns
 
-The rapid development and use of artificial intelligence (AI) has raised significant ecological concerns due to its sizeable energy demands, particularly from training and running large language models (LLMs). These processes require immense computational power, leading to a substantial increase in electricity demand for data centers, which are often powered by fossil fuels. 
+Artificial intelligence (AI) has raised significant ecological concerns due to its sizeable energy demands, particularly from the training and running of large language models (LLMs). These processes require immense computational power, leading to a substantial increase in electricity demand for data centers, which are often powered by fossil fuels. 
 
-In addition, the proliferation of the data centers that power AI create a new set of environmental pressures. These facilities require vast amounts of land and, crucially, water for cooling the heat-generating servers. This can strain local water supplies, especially in drought-prone regions. The combined need for energy and water creates a complex and growing environmental footprint that researchers and policymakers are still working to fully understand and address.
+In addition, the proliferation of data centers create a new set of environmental pressures. These facilities require vast amounts of land and, crucially, water for cooling the heat-generating servers. This can strain local water supplies, especially in drought-prone regions. The combined need for energy and water creates a complex and growing environmental footprint that researchers and policymakers are still working to fully understand and address.
 
-AI providers are attempting to lessen the environmental impact of their tools and are trying to reassure researchers that [they're making progress in improving efficiency](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference).
+While AI undeniably consumes energy and resources at a concerning scale, some AI developers are mindful of the environmental impact of their tools and are attempting to reassure researchers that [they're making progress in improving efficiency](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference).
 
 ### Copyright Concerns and AI 
 
@@ -477,13 +478,13 @@ For researchers and students, the key challenge is ethical as well as legal: if 
 
 While AI tools offer powerful new ways to find and analyze information, they also present a significant "learning risk." By automating complex tasks, [AI can reduce cognitive load](https://arxiv.org/abs/2506.08872) and prevent students from engaging in the deep, critical thinking necessary for learning. This convenience can also make it easier for students to engage in academic dishonesty and cheating, bypassing the fundamental work of research and synthesis. In doing so, AI tools can undermine efforts to teach core academic skills and support genuine engagement with course material.
 
-For these reasons, the judicious use of AI is critical. Students who copy and paste AI-generated content may be getting a quick answer, but they are not enjoying a fulfilling educational experience. Constructive AI use requires a critical understanding of these limitations and grounded in an awareness how to be intellectually responsible with AI. 
+For these reasons, the judicious use of AI is critical. Students who copy and paste AI-generated content may be getting a quick answer, but they are not enjoying a sincere educational experience. Constructive AI use requires a critical understanding of these limitations all grounded in an awareness how to be intellectually responsible with AI. 
 
-### Google Gemini AI Search Results 
+### AI Search Results Undermine Web Publishing
 
 Google’s integration of its Gemini AI system into search results (SERPs) represents a major shift in the economics of the web. Traditionally, Google has acted as a broker between users and publishers: it indexed websites, surfaced snippets, and drove traffic outward, sustaining an ecosystem where publishers earned revenue through ads, subscriptions, and visibility. Summaries generated directly in SERPs threaten this balance by reducing the need for users to click through to original sources, concentrating attention within Google’s platform and disrupting the flow of traffic that publishers depend on.
 
-For librarians, this is a development of unique concern. A healthy Internet has historically relied on the diversity of publishers, archives, and institutions that make information accessible. If AI-driven search displaces that ecosystem, we risk a less robust, less sustainable information environment.
+For librarians, this is a development of unique concern. A healthy Internet has historically relied on the diversity of publishers and resources that make information accessible. If AI-driven search results displaces that ecosystem, we risk a less robust information environment.
 
 
 <p class="top-link"><a href="#top">^Back to Top</a></p>

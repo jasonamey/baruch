@@ -44,3 +44,9 @@ table td:first-child {
   white-space: nowrap;
   width: 20%;
 }
+
+hr {
+    border-top: 1px dashed #ccc; 
+    height: 0; 
+    border-bottom: none;
+}
