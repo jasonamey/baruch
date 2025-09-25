@@ -77,10 +77,6 @@ format: revealjs
 [https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
 ![](images/cap-iq.jpg)
 
-## S&P Capital IQ
-[https://guides.newman.baruch.cuny.edu/databases/S-T](https://guides.newman.baruch.cuny.edu/databases/S-T)
-![](images/cap-iq.jpg)
-
 
 ## WRDS
 [https://guides.newman.baruch.cuny.edu/databases/W-Z](https://guides.newman.baruch.cuny.edu/databases/W-Z)
