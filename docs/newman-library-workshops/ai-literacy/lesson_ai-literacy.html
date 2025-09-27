@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>lesson_ai-literacy</title>
+<title>AI Literacy Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="custom.css">
 </head>
 
 <body class="fullcontent">
@@ -78,27 +79,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI Literacy Workshop</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p><link rel="stylesheet" href="custom.css"></p>
-<!-- 
-
-
-
-
-
-
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
----
-title: "AI Literacy Workshop"
-format: html
-css: custom.css   
---- -->
+
 <p><a id="top"></a></p>
 <section id="table-of-contents" class="level2">
 <h2 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h2>
@@ -109,10 +110,11 @@ css: custom.css
 <li><a href="#ai-at-baruch-college">AI at Baruch College</a></li>
 <li><a href="#generative-ai">Generative AI</a></li>
 <li><a href="#large-language-models">Large Language Models (LLM)</a></li>
+<li><a href="#prompt-engineering-and-context-engineering">Prompt Engineering and Context Engineering</a></li>
 <li><a href="#retrieval-augmented-generation">Retrieval Augmented Generation (RAG)</a></li>
 <li><a href="#ai-search">AI Search</a></li>
+<li><a href="#considerations-and-questions-about-using-ai">Considerations and Questions about Using AI</a></li>
 <li><a href="#glossary">Glossary</a></li>
-<li><a href="#considerations-and-ethical-questions-about-using-AI">Considerations and Questions about Using AI</a></li>
 </ul></li>
 </ul>
 <hr>
@@ -145,7 +147,8 @@ css: custom.css
 <li>AI Awareness with Critical Evaluation<br>
 </li>
 <li>Guided Use with Attribution</li>
-<li>Integrated Use for Application, and (7) Co-created Policies with Students.</li>
+<li>Integrated Use for Application,</li>
+<li>Co-created Policies with Students.</li>
 </ol>
 <p>The use of AI in your coursework is contingent on the guidelines set by your course instructor; unauthorized use may be considered a violation of academic integrity.</p>
 </section>
@@ -171,9 +174,11 @@ css: custom.css
 <figcaption>generative-ai</figcaption>
 </figure>
 </div>
-<p>This gives students and researchers remarkable power: you can brainstorm ideas, visualize complex concepts, or rehearse how to explain them. But be cautious: just because AI can generate content does not mean that content is accurate, verified, or most importantly: appropriate to cite as an authority. Always consult your instructor or course syllabus to determine whether using generative AI is permitted in your coursework.</p>
+<p>This gives students and researchers remarkable power: you can brainstorm ideas, visualize complex concepts, or rehearse how to explain them. At the same time, it raises important questions about authority, accuracy, and appropriateness. Just because AI can generate content does not mean that content is accurate, verified, or most importantly, appropriate to cite as an authority. Always consult your instructor or course syllabus to determine whether using generative AI is permitted in your coursework.</p>
+<p>To help orient you, below are leading generative AI resources grouped by function. This list is not exhaustive, but it highlights the tools most likely to be encountered in higher education and research today.</p>
 <section id="text-to-text-tools" class="level3">
 <h3 class="anchored" data-anchor-id="text-to-text-tools">text-to-text Tools</h3>
+<p>These are conversational and writing-focused models. They are often used for brainstorming, summarizing, drafting and coding.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -211,6 +216,7 @@ css: custom.css
 </section>
 <section id="text-to-image-tools" class="level3">
 <h3 class="anchored" data-anchor-id="text-to-image-tools">text-to-image Tools</h3>
+<p>These tools create illustrations, designs, or realistic images from prompts. They are widely used in publishing, design and classroom visualization.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -244,6 +250,7 @@ css: custom.css
 </section>
 <section id="text-to-video-tools" class="level3">
 <h3 class="anchored" data-anchor-id="text-to-video-tools">text-to-video Tools</h3>
+<p>Video generation is a newer but fast-moving space. These tools can be used for presentations, storytelling and media creation.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -274,6 +281,7 @@ css: custom.css
 </tr>
 </tbody>
 </table>
+<p>Generative AI tools are evolving rapidly, and today’s most popular platforms may be replaced or transformed in only a few years. What remains constant is the need for careful evaluation: students and researchers must not only know what these tools can create but also understand their limitations, biases, and appropriate use in academic contexts.</p>
 <p class="top-link">
 <a href="#top">^Back to Top</a>
 </p>
@@ -282,10 +290,9 @@ css: custom.css
 </section>
 <section id="large-language-models-llm" class="level2">
 <h2 class="anchored" data-anchor-id="large-language-models-llm">Large Language Models (LLM)</h2>
-<p>Artificial Intelligence is undoubtedly reshaping how we access, evaluate, and create information. From chatbots to research assistants, AI tools are increasingly part of everyday academic life. This teaching note focuses on a crucial piece of AI Literacy: understanding how large language models like ChatGPT, Gemini, and Claude work - and how they influence the way students and researchers discover, retrieve, and interact with information.</p>
-<p>Although this note is focused on “AI Literacy,” the key part of understanding modern AI for information retrieval is maintaining a strong command of text-based Generative AI tools. This primarily means understanding the Large Language Model (LLM) with a focus on the inner-workings of popular chatbots powered by LLMs like OpenAI’s ChatGPT and Google’s Gemini.</p>
-<p>The large language models that power popular technologies like ChatGPT and Gemini also drive many other AI tools discussed in this guide. These include specialized applications such as research assistants (e.g., Elicit) and consumer-facing Retrieval-Augmented Generation (RAG) tools (e.g., Google’s NotebookLM).</p>
-<p>There are no doubt noteworthy developments in other frontiers of AI including advances in computer vision (e.g.&nbsp;self-driving cars, medical image recognition) and speech recognition (e.g.&nbsp;Amazon Alexa, Apple Siri), but in the domain of libraries and information literacy, “AI literacy” is a crucial skill that begins with a deep understanding of large language models and the popular models currently embraced by students and researchers.</p>
+<p>At the heart of today’s generative AI are Large Language Models (LLMs) such as ChatGPT, Gemini, and Claude. These models are trained on vast corpora of text and are designed to predict the next most likely word in context. While this seems simple, at scale it produces strikingly fluent responses that allow these systems to summarize, generate, and converse in ways that resemble human authorship.</p>
+<p>For information literacy, LLMs matter because increasingly they are informing how students and researchers encounter information. Chatbots and research assistants powered by LLMs don’t just retrieve documents—they synthesize across thousands of sources at once, shaping how knowledge is presented.</p>
+<p>As noted earlier, even defining ‘what counts as AI’ can be difficult given its many domains. For libraries, however, the core challenge of AI literacy begins here: understanding how LLMs work, and what it means when machine-generated texts become part of the research and learning process.</p>
 <section id="inside-the-black-box-understanding-llm-input-and-output" class="level3">
 <h3 class="anchored" data-anchor-id="inside-the-black-box-understanding-llm-input-and-output">Inside the Black Box: Understanding LLM Input and Output</h3>
 <p>Every time you use an AI chatbot like ChatGPT, you’re participating in a process that begins with your prompt and ends with a generated response. But what happens in between?</p>
@@ -327,6 +334,12 @@ css: custom.css
 <p>While this accessibility makes LLMs appealing as educational tools, their use in academic settings is still a topic of debate. Within the classroom, scholars and instructors continue to question how these tools will affect teaching, learning, and the development of critical thinking. As tools of research, LLMs need to be treated with caution.</p>
 <p>It’s imporant to recognize the limitation of LLMs in conducting research. LLMs can be useful tools for brainstorming, summarizing, explanation and exploration - but they are not replacements for scholarly databases, specialized research tools, or the expertise of librarians. Valuable information remains in both library databases and the deep web - and navigating that terrain still requires human guidance and domain-specific resources.</p>
 </section>
+<section id="why-verification-matters-with-llms" class="level3">
+<h3 class="anchored" data-anchor-id="why-verification-matters-with-llms">Why Verification Matters with LLMs</h3>
+<p>Even if you understand what data a large language model (LLM) was trained on — a crucial step in evaluating its potential biases and blind spots — this alone cannot prevent hallucinations. As OpenAI (2025) notes in its article “Why Language Models Hallucinate,” there are algorithmic and statistical reasons for hallucinations as well, including the way models are trained to predict the next word, the incentives for confident answers over admitting uncertainty, and the difficulty of modeling rare or complex facts.</p>
+<p>For this reason, even the strongest advocates of LLMs emphasize the need to always verify content produced by these systems. It also highlights why LLMs are likely to remain inappropriate for “high-stakes” information authority tasks - such as citations in term papers - where accuracy and reliability are paramount.</p>
+<p>Kalai, A. T., Nachum, O., Vempala, S. S., &amp; Zhang, E. (2025). Why language models hallucinate. <em>arXiv preprint arXiv:2509.04664.</em></p>
+</section>
 <section id="the-dominant-large-language-models" class="level3">
 <h3 class="anchored" data-anchor-id="the-dominant-large-language-models">The Dominant Large Language Models</h3>
 <p><img src="./images/llms/llm-logos.jpg" alt="llm-logos" class="img-md"></p>
@@ -340,12 +353,22 @@ css: custom.css
 <section id="professional-applications-of-llms" class="level3">
 <h3 class="anchored" data-anchor-id="professional-applications-of-llms">Professional Applications of LLMs</h3>
 <p>Domain-specialized applications of LLMs are increasingly emerging across professional fields like law, accounting, finance, and medicine. Tools such as Casetext CoCounsel in the legal profession or BloombergGPT in finance illustrate how the same foundational models that power general-purpose chatbots can be tailored with proprietary or highly specialized datasets to meet professional needs. These tools work precisely because they embed domain-specific knowledge directly into the model’s training or retrieval pipelines, reinforcing the principle that “the data is the model.”</p>
-<p>For example, an accounting or finance LLM only performs well if it has been exposed to financial statements, tax codes, regulatory filings, and historical market data. Specialized data like this often escapes the training of general LLM models such as Gemini and ChatGPT - demonstrating that what an AI system “knows” is inseparable from the data it has been trained on, underscoring the importance of always asking what sources underpin the model’s authority.</p>
+<p>For example, an accounting or finance LLM only performs well if it has been exposed to financial statements, tax codes, regulatory filings, and historical market data. Specialized data like this often escapes the training of general LLM models such as Gemini and ChatGPT - demonstrating that what an AI system “knows” is inseparable from the data it has been trained on, underscoring the importance of always asking what sources center the model’s authority.</p>
 <p class="top-link">
 <a href="#top">^Back to Top</a>
 </p>
 <hr>
 </section>
+</section>
+<section id="prompt-engineering-and-context-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-engineering-and-context-engineering">Prompt Engineering and Context Engineering</h2>
+<p>Prompt engineering refers to the techniques of designing and refining the input (prompt) you give to a generative model in order to guide it toward more accurate or useful outputs. Good prompts often include context, constraints, and examples (few-shot prompting) so the model has a clearer “frame” for what you want.</p>
+<p>Context engineering is closely related: it means structuring the surrounding information or prompt context (e.g.&nbsp;preceding instructions, system messages, input embeddings, grounding documents) so the model’s output is better scoped. In other words, prompt engineering is about what you ask, and context engineering is about what additional information you provide to help the model answer well.</p>
+<p>Using both techniques together, you can reduce ambiguity, anchor the model’s reasoning, and nudge it away from hallucinations or irrelevant responses.</p>
+<p class="top-link">
+<a href="#top">^Back to Top</a>
+</p>
+<hr>
 </section>
 <section id="retrieval-augmented-generation-rag" class="level2">
 <h2 class="anchored" data-anchor-id="retrieval-augmented-generation-rag">Retrieval Augmented Generation (RAG)</h2>
@@ -445,7 +468,7 @@ css: custom.css
 </div>
 </div>
 <p><br></p>
-<p>Deep Research searches take consdierable time as: exhaustively examining the web, identifying sources by a wide semantic criteria, evaluating those resources and then synthesizing them into a report is a computationally demanding process. While researchers may be used to a search engine query taking a fraction of a second, Deep Research searches can take several minutes to complete.</p>
+<p>Deep Research searches take considerable time as: exhaustively examining the web, identifying sources by a wide semantic criteria, evaluating those resources and then synthesizing them into a report is a computationally demanding process. While researchers may be used to a search engine query taking a fraction of a second, Deep Research searches can take several minutes to complete.</p>
 <p>Once completed, Deep Research will return a multi-page report summarizing its findings. Unlike traditional LLM chatbots however, everything in the report is cited and sourced in a bibliography that will include dozens of open web sources:</p>
 <p><img src="./images/ai-search/deep-research-report.jpg" alt="deep-research-report" class="img-md"></p>
 <p><br></p>
@@ -457,7 +480,7 @@ css: custom.css
 <section id="ai-and-the-literature-review" class="level3">
 <h3 class="anchored" data-anchor-id="ai-and-the-literature-review">AI and the Literature Review</h3>
 <p><img src="./images/ai-search/ai-assistants-logos.jpg" alt="ai-assistants-logos" class="img-md"></p>
-<p>An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating time-consuming activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote relevant documents and information.</p>
+<p>An AI research assistant is a tool powered by artificial intelligence that supports various stages of academic research, particularly literature reviews. These tools are designed to streamline the research process by automating activities like finding relevant papers, summarizing key findings, and synthesizing information across multiple documents. They work by processing vast amounts of academic literature and using large language models (LLMs) to understand, organize, and promote relevant documents and information.</p>
 <p><strong>Most of these services are proprietary. While they often have a free tier to attract users, their full functionality is typically locked behind a paid subscription or license.</strong></p>
 <p>Notable AI Research Assistants include:</p>
 <table class="caption-top table">
@@ -535,9 +558,9 @@ css: custom.css
 <h2 class="anchored" data-anchor-id="considerations-and-questions-about-using-ai">Considerations and Questions about Using AI</h2>
 <section id="ecological-concerns" class="level3">
 <h3 class="anchored" data-anchor-id="ecological-concerns">Ecological Concerns</h3>
-<p>The rapid development and use of artificial intelligence (AI) has raised significant ecological concerns due to its sizeable energy demands, particularly from training and running large language models (LLMs). These processes require immense computational power, leading to a substantial increase in electricity demand for data centers, which are often powered by fossil fuels.</p>
-<p>In addition, the proliferation of the data centers that power AI create a new set of environmental pressures. These facilities require vast amounts of land and, crucially, water for cooling the heat-generating servers. This can strain local water supplies, especially in drought-prone regions. The combined need for energy and water creates a complex and growing environmental footprint that researchers and policymakers are still working to fully understand and address.</p>
-<p>AI providers are attempting to lessen the environmental impact of their tools and are trying to reassure researchers that <a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference">they’re making progress in improving efficiency</a>.</p>
+<p>Artificial intelligence (AI) has raised significant ecological concerns due to its sizeable energy demands, particularly from the training and running of large language models (LLMs). These processes require immense computational power, leading to a substantial increase in electricity demand for data centers, which are often powered by fossil fuels.</p>
+<p>In addition, the proliferation of data centers create a new set of environmental pressures. These facilities require vast amounts of land and, crucially, water for cooling the heat-generating servers. This can strain local water supplies, especially in drought-prone regions. The combined need for energy and water creates a complex and growing environmental footprint that researchers and policymakers are still working to fully understand and address.</p>
+<p>While AI undeniably consumes energy and resources at a concerning scale, some AI developers are mindful of the environmental impact of their tools and are attempting to reassure researchers that <a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference">they’re making progress in improving efficiency</a>.</p>
 </section>
 <section id="copyright-concerns-and-ai" class="level3">
 <h3 class="anchored" data-anchor-id="copyright-concerns-and-ai">Copyright Concerns and AI</h3>
@@ -547,12 +570,18 @@ css: custom.css
 <section id="learning-risk-with-using-ai" class="level3">
 <h3 class="anchored" data-anchor-id="learning-risk-with-using-ai">“Learning Risk” with using AI</h3>
 <p>While AI tools offer powerful new ways to find and analyze information, they also present a significant “learning risk.” By automating complex tasks, <a href="https://arxiv.org/abs/2506.08872">AI can reduce cognitive load</a> and prevent students from engaging in the deep, critical thinking necessary for learning. This convenience can also make it easier for students to engage in academic dishonesty and cheating, bypassing the fundamental work of research and synthesis. In doing so, AI tools can undermine efforts to teach core academic skills and support genuine engagement with course material.</p>
-<p>For these reasons, the judicious use of AI is critical. Students who copy and paste AI-generated content may be getting a quick answer, but they are not enjoying a fulfilling educational experience. Constructive AI use requires a critical understanding of these limitations and grounded in an awareness how to be intellectually responsible with AI.</p>
+<p>For these reasons, the judicious use of AI is critical. Students who copy and paste AI-generated content may be getting a quick answer, but they are not enjoying a sincere educational experience. Constructive AI use requires a critical understanding of these limitations all grounded in an awareness how to be intellectually responsible with AI.</p>
 </section>
-<section id="google-gemini-ai-search-results" class="level3">
-<h3 class="anchored" data-anchor-id="google-gemini-ai-search-results">Google Gemini AI Search Results</h3>
+<section id="understanding-sycophancy-the-limits-of-prompt-control" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-sycophancy-the-limits-of-prompt-control">Understanding Sycophancy &amp; the Limits of Prompt Control</h3>
+<p>The paper “Towards Understanding Sycophancy in Language Models” examines how models tuned with human feedback sometimes exhibit sycophantic behavior — i.e.&nbsp;responding in ways that flatter or agree with a user’s beliefs rather than strictly prioritizing truth. They find that human preference data biases the model toward what users like to hear, which can incentivize the model to generate appealing but incorrect or misleading responses. arXiv</p>
+<p>This technical insight mirrors what has been observed in the broader public sphere. A recent New York Times article (“Next Time You Consult an A.I. Chatbot, Remember One Thing,” Bajaj, 2025) describes how chatbots often validate users’ perspectives no matter what. Experts cited in the piece warn that such constant validation can act like a “distorted mirror,” reinforcing biases and discouraging disagreement.</p>
+<p>This means prompt engineering has limits: even a well-crafted prompt or context might not be enough to override those deeper training incentives. The model’s internal weightings, the feedback loop of human preference, and the optimization objectives all play a role in driving sycophantic responses.</p>
+</section>
+<section id="ai-search-results-undermine-web-publishing" class="level3">
+<h3 class="anchored" data-anchor-id="ai-search-results-undermine-web-publishing">AI Search Results Undermine Web Publishing</h3>
 <p>Google’s integration of its Gemini AI system into search results (SERPs) represents a major shift in the economics of the web. Traditionally, Google has acted as a broker between users and publishers: it indexed websites, surfaced snippets, and drove traffic outward, sustaining an ecosystem where publishers earned revenue through ads, subscriptions, and visibility. Summaries generated directly in SERPs threaten this balance by reducing the need for users to click through to original sources, concentrating attention within Google’s platform and disrupting the flow of traffic that publishers depend on.</p>
-<p>For librarians, this is a development of unique concern. A healthy Internet has historically relied on the diversity of publishers, archives, and institutions that make information accessible. If AI-driven search displaces that ecosystem, we risk a less robust, less sustainable information environment.</p>
+<p>For librarians, this is a development of unique concern. A healthy Internet has historically relied on the diversity of publishers and resources that make information accessible. If AI-driven search results displaces that ecosystem, we risk a less robust information environment.</p>
 <p class="top-link">
 <a href="#top">^Back to Top</a>
 </p>
