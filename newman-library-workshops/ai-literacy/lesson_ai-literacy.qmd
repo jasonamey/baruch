@@ -262,6 +262,7 @@ Using both techniques together, you can reduce ambiguity, anchor the model’s r
 
 While Large language models (LLMs) are undoubtedly powerful as reasoning and content creation tools, they are inherently static, meaning their knowledge is limited to the data they were initially trained on. This creates a significant problem when you need specialized, proprietary, or time-sensitive information, as a base LLM has no way of accessing this new data.
 
+
 <img src="images/RAG/unhappy-llm.png" alt="unhappy-llm" class="img-sm"/>
 
 Retrieval-Augmented Generation (RAG) is an architectural approach that attempts to address this limitation. It enhances an LLM by giving it access to an external knowledge base, such as a database of academic papers or an up-to-date company wiki. The RAG system first retrieves relevant information from this external source and then uses that information as context to help the LLM generate a more accurate and current answer. This makes the LLM dynamic, allowing it to provide relevant responses that go beyond its original training data.
